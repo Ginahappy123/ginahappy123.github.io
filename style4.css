@@ -1,0 +1,61 @@
+.container {
+    margin: 0px auto;
+    width: 1170px
+}
+
+.container-fluid: {
+    width: 100%
+}
+
+.main {
+    border: 2px solid red;
+    
+}
+
+.main aside {
+    width: 30%;
+    border: 3px solid blue;
+    float: right
+}
+
+.main .content {
+    width: 70%;
+    border: 3px solid green;
+    float: left
+}
+
+.inline-block div {
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+}
+
+.main [id^="box"] {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    line-height: 148px;
+    text-align: center;
+    
+}
+
+#box2, #box4 {
+    position: relative;
+    top: 0;
+    left: 150px
+}
+.card {
+    position: relative
+}
+
+.card img {
+    width: 100%;
+    display: block;
+
+}
+.like{
+color: white;
+background-color: red;
+font-size: 16px;
+line-height: 1.2;
+width: 50px}
